@@ -296,7 +296,6 @@ declare module 'slate-react/plugins/after' {
         onPaste(event: any, change: any, editor: any): void
         onSelect(event: any, change: any, editor: any): void
         renderEditor(props: any, editor: any): any
-        renderMark(props: any): any
         renderNode(props: any): any
         renderPlaceholder(props: any): any
     };
